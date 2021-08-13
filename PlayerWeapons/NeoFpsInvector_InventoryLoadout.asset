@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f932be5f2b3cb7648ac3bdbef2b0c892, type: 3}
+  m_Name: NeoFpsInvector_InventoryLoadout
+  m_EditorClassIdentifier: 
+  m_Items:
+  - {fileID: 114720571942937776, guid: dfe46eefaa9a7544ca7ee5e668df212c, type: 3}
+  - {fileID: 114235257556039404, guid: 64f2a695fbc7afe4cb28f1ba66c2b64d, type: 3}
+  - {fileID: 114155156615581814, guid: dd380354ce548fb45a4ca08cf3c74330, type: 3}
+  - {fileID: 114988272171304022, guid: 83edd995a1902c94098088f3ef81e802, type: 3}
+  - {fileID: 114491831698022604, guid: 6c688c81d559f0c4d9a19f7a8b9b4d36, type: 3}
+  - {fileID: 114798084419304180, guid: e8c6d0e631cd74d43a001e86db309eb3, type: 3}
+  - {fileID: 7416984497367531769, guid: 5bf8c206ff09b0944af74942b6f2d034, type: 3}
+  - {fileID: 281310646345045500, guid: 93b51ef04c96bb0449cdcef1fa57486f, type: 3}
+  - {fileID: 8283270573619553634, guid: 2e339a93404a96549b37eac1eb9318d4, type: 3}
+  - {fileID: 5925390839966208659, guid: 8bfae98a5ffdeac43b80f72e75e33dd6, type: 3}
