@@ -29,6 +29,7 @@ There are 2 things you have to do to your firearm prefabs to get them working wi
 
 There are a few requirements for the player character to work with AI:
 - Firstly, check that the root object is on the **CharacterControllers** layer, and has the **Player** tag.
+- Check that the capsule collider has **Is Trigger** switched **on**
 - For each of the damage colliders in the player hierarchy, make sure that they are on the **CharacterPhysics** layer, and add a **NeoFpsInvector_PlayerDamageHandler** component.
 - Make sure that any SeekerTarget objects in the character hierarchy are on the **AiVisibility** layer and have the **Player** tag.
 

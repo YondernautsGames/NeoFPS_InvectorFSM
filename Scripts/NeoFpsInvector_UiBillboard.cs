@@ -27,7 +27,7 @@ namespace NeoFPS.InvectorFSM
                 m_LocalTransform.LookAt(m_Target, Vector3.up);
         }
 
-        void OnCurrentCameraChanged(FirstPersonCamera cam)
+        void OnCurrentCameraChanged(FirstPersonCameraBase cam)
         {
             if (cam == null)
             {
@@ -38,7 +38,7 @@ namespace NeoFPS.InvectorFSM
                     m_Target = null;
             }
             else
-                m_Target = cam.unityCamera.transform;
+                m_Target = cam.cameraTransform;
         }
     }
 }

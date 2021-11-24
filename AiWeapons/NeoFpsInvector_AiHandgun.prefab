@@ -17690,7 +17690,7 @@ GameObject:
   - component: {fileID: 4490670667618100}
   - component: {fileID: 114049858559513544}
   m_Layer: 2
-  m_Name: NeoFpsInvector_Handgun
+  m_Name: NeoFpsInvector_AiHandgun
   m_TagString: Weapon
   m_Icon: {fileID: 2270504221434485236, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -17725,7 +17725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 2
+  selectedToolbar: 3
   weaponCategory: Pistols
   shootFrequency: 0.5
   isInfinityAmmo: 0
