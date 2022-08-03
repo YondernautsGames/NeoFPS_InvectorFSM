@@ -28,7 +28,12 @@ namespace NeoFPS.InvectorFSM
         public DamageFilter inDamageFilter { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 
         private vHealthController m_HealthController = null;
-
+		
+		public IHealthManager healthManager
+		{
+			get { return null; }
+		}
+		
         protected override void Start()
         {
             base.Start();
