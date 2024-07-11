@@ -75,11 +75,14 @@ namespace NeoFPS.InvectorFSM
                 d.damageValue = Mathf.CeilToInt(damage);
                 d.sender = source.damageSourceTransform;
                 TakeDamage(d);
+				
+				var result = DamageResult.Standard;
 
-                if (damage > 0f && source != null && source.controller != null)
-                    source.controller.currentCharacter.ReportTargetHit(false);
+                // Report damage dealt
+                if (damage > 0f)
+                    DamageEvents.ReportDamageHandlerHit(this, source, transform.position, result, damage);
 
-                return DamageResult.Standard;
+                return result;
             }
             else
                 return DamageResult.Ignored;
@@ -94,11 +97,14 @@ namespace NeoFPS.InvectorFSM
                 d.hitPosition = hit.point;
                 d.sender = source.damageSourceTransform;
                 TakeDamage(d);
+				
+				var result = DamageResult.Standard;
 
-                if (damage > 0f && source != null && source.controller != null)
-                    source.controller.currentCharacter.ReportTargetHit(false);
+                // Report damage dealt
+                if (damage > 0f)
+                    DamageEvents.ReportDamageHandlerHit(this, source, transform.position, result, damage);
 
-                return DamageResult.Standard;
+                return result;
             }
             else
                 return DamageResult.Ignored;
